@@ -80,6 +80,10 @@
                 exit;
             }
 
+     // Forma 5 de descarga de archivo
+    $fichero = 'books.csv';
+
+            echo "<SCRIPT>window.location='$fichero';</SCRIPT>";  // Aquí abro el pdf
 
 
 ?>

@@ -86,7 +86,7 @@
             echo "<SCRIPT>window.location='$fichero';</SCRIPT>";  // Aquí abro el pdf
 
 
-     // Forma 4 de descarga de archivo
+     // Forma 5 de descarga de archivo
 
     $file = 'books.csv';
     $path = $root.$file;
@@ -112,7 +112,7 @@
         // Download File
         readfile($path);
     } else {
-        die("File not exist !!");
+        die("Fichero no existe!");
     }
 
 

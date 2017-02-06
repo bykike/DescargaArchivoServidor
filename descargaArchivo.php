@@ -8,6 +8,7 @@
     readfile("books.csv");
 
 
+
     // Forma 2 de descarga de archivo
 
     $filename="books.csv";
@@ -64,6 +65,8 @@
  
      }
 
+
+
      // Forma 4 de descarga de archivo
 
     $fichero = 'books.csv';
@@ -80,13 +83,17 @@
                 exit;
             }
 
+
+
      // Forma 5 de descarga de archivo
+
     $fichero = 'books.csv';
 
-            echo "<SCRIPT>window.location='$fichero';</SCRIPT>";  // Aquí abro el pdf
+    echo "<SCRIPT>window.location='$fichero';</SCRIPT>";  // Aquí abro el pdf
 
 
-     // Forma 5 de descarga de archivo
+
+     // Forma 6 de descarga de archivo
 
     $file = 'books.csv';
     $path = $root.$file;
